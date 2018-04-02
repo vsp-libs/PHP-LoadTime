@@ -11,6 +11,7 @@ script:
     if [[ $TRAVIS_BRANCH == "master" ]]; then
       cd ../../
       git clone https://github.com/Josantonius/PHP-LoadTime.git
+      dir
       cp Josantonius/PHP-LoadTime/src/* $TRAVIS_REPO_SLUG/
       git log -1
       git checkout -f master
