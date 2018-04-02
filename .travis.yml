@@ -21,3 +21,4 @@ script:
       git remote set-url origin https://$gh_token@github.com/$TRAVIS_REPO_SLUG.git > /dev/null 2>&1
       git push origin master -f
     fi
+    
