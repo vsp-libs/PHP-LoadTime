@@ -12,7 +12,7 @@ script:
       cd ../../
       git clone https://github.com/Josantonius/PHP-LoadTime.git
       dir
-      cp Josantonius/PHP-LoadTime/src/* $TRAVIS_REPO_SLUG/
+      cp  PHP-LoadTime/src/* $TRAVIS_REPO_SLUG/
       git log -1
       git checkout -f master
       git config --global user.email "travis@travis-ci.org"
